@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>web page</title>
+        <style>
+        body {
+            background-color:lightgreen;
+            }
+        h2 {
+            color: rgb(165, 64, 165);
+            }
+        a:link, a:visited {
+            background-color: skyblue;
+            color:black;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            }
+        a:hover, a:active {
+            background-color: blue;
+            }
+        ul.b {
+            list-style-type: square;
+            background-color: rgb(248, 24, 8);
+            }
+        div {
+            border: 1px solid rgb(143, 238, 150);
+            margin-top: 50px;
+            margin-bottom: 100px;
+            margin-right: 40px;
+            margin-left: 350px;
+            background-color: lightblue;
+            }
+        table {
+            font-family: arial, italic;
+            border-collapse: collapse;
+            width: 100%;
+            }
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+            }
+        p {outline-color:red;}
+        p.dashed {outline-style: dashed;}
+        h1 {
+            border: 1px solid black;
+            background-color: lightblue;
+            padding-top: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            }
+        h4.hidden {
+            display: none;
+            }
+        d.static {
+            position: static;
+            border: 3px solid #73AD21;
+            }
+        img {
+            float: right;
+            }
+       </style>
+    </head>
+    <body>
+        <div>
+            <img src="234.png" alt="Trulli" width="500" height="333" margin-left=15px>
+        </div>
+        <h1>conduira online!</h1>
+        <p>enter details and visit page!</p>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>  
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" form="form1"><br><br>
+        <a href="https://www.conduiraonline.com/" target="_blank">submit</a>
+       <h3>courses provided:</h3>
+       <ul>
+           <li>CRT</li>
+           <li>Bank exams</li> 
+           <li>GRE</li>
+           <li>MBA Entrance exams</li>
+        </ul>
+        <h2>Register Button</h2>
+        <p>click the button to go to gegistration page:</p>
+        <a href="https://www.conduiraonline.com/index.php/component/users/?view=registration" target="_blank">register</a>
+        <h2>companies</h2>
+        <p class="dashed">
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>score</th>
+            </tr>
+            <tr>
+                 <td>HTML</td>
+                 <td>89</td>
+            </tr>
+            <tr>
+                 <td>PHP</td>
+                 <td>90</td>
+            </tr>
+         </table>
+         </p>
+         <p class="dashed"></p>
+         <h4 class="hidden">This is a hidden heading</h4>
+         <d class="static">
+             This element has position: static;
+        </d>
+        <h5>navigation bar:</h5>
+        <ol>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ol>
+    </body>
+</html>
