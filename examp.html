@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Click the button to display the date.</p>
+
+    <button onclick="displayDate()">The time is?</button>
+    <script>
+         function displayDate() {
+              document.write( Date());
+         }
+         var a=Date();
+         console.log(a);
+
+         var b=20;
+         if(10<b<100){
+             
+             document.write("</br></br>the given number "+b+" is between 10 and 100");
+             }
+         else{
+             document.write(b+"number not between 10 and 100");
+         }
+         var n1=0;
+         var n2=1;
+         var n3;
+         var i;
+         var count=10;  
+         document.write("</br> febonacci series:</br>");
+         document.write(n1+" "+n2);
+         for(i=2;i<count;++i)
+         {  
+          n3=n1+n2;  
+          document.write(" "+n3);  
+          n1=n2;  
+          n2=n3;  
+         }  
+        </script>
+        
+       
+</body>
+</html>
